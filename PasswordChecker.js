@@ -37,6 +37,8 @@ export function checkPassword(password) {
             return true;
         }
     }
+
+    // test pull request
     
     throw new Error('Password should contain at least one lowercase letter, one uppercase letter, one digit, and one special character');
 }
